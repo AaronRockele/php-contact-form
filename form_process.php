@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
         $name_error ="Name is required";
         
     } else {
-        $name = test_input($_POST['fullname']);
+        $name = test_input($_POST['name']);
   
     if(!preg_match("/^[a-zA-Z ]*/", $name)){
         $name_error = "Only letters and whitspace allowed";
