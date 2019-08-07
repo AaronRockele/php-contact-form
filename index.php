@@ -1,4 +1,3 @@
-
 <?php include('form_process.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,7 +15,7 @@
   <form id="ajax-contact" method="post" action="<?= $_SERVER['PHP_SELF'];?>">
     <div class="field">
       <label for="name">Name:</label>
-      <input type="text" id="name" placeholder="Name" name="name">
+      <input type="text" id="name" placeholder="Name" name="name" value=<?=$name?>>
       <span class="error"><?= $name_error ?></span>
     </div>
     <div class="field">
@@ -29,10 +28,11 @@
       <textarea id="message" placeholder="message you want to send us..." type="text" name="message"></textarea>
     </div>
     <div class="field">
-      <button class="red-btn" type="submit">Send</button>
+      <button class="red-btn" type="submit" name="submit" value='reset'>Send</button>
     </div>
   </form>
-  <div class="succsess"><?=$success;?></div>
+  <div class="success"><?= $success; ?></div>
+
 </div>
 </body>
 </html>
