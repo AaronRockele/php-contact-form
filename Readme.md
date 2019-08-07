@@ -1,3 +1,3 @@
 ## My contact form
 
-![example of webpage](./Assets/IMG/example.png) 
+![example of webpage](Assets/IMG/example.png) 
