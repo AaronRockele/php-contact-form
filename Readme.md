@@ -2,5 +2,5 @@
 
 download
 
-![example of webpage](Assets/IMG/example.png)
+<img src="Assets/IMG/example.png" width="400">
 
