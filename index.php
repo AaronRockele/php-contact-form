@@ -12,7 +12,7 @@
 <div id="page-wrapper">
   <h1>Contact Form</h1>
   <div id="form-messages"></div>
-  <form id="ajax-contact" method="post" action="<?= $_SERVER['PHP_SELF'];?>">
+  <form id="ajax-contact" method="post">
     <div class="field">
       <label for="name">Name:</label>
       <input type="text" id="name" placeholder="Name" name="name" value=<?=$name?>>
